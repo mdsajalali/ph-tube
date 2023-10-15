@@ -15,22 +15,22 @@ const displayContent = (contents) => {
     const contentCard = document.createElement("div");
     contentCard.classList = `p-2 bg-gray-100 shadow-xl rounded `;
     contentCard.innerHTML = `
-    <figure>
+             <figure>
               <img class="w-full h-[200px] "
                 src="${content.thumbnail}"
                 alt=""
               />
               </figure>
     
-              <div  class="mt-3 flex gap-3">
+              <div  class="mt-3 flex items-center gap-3">
                 <img class="w-10 h-10 rounded-full "
                 src="${content.authors[0].profile_picture}"
                 alt=""
               />
               
-              <div class="">
-              <p class="">${content.authors[0].profile_name}</p>
-              <h1>${content.others.views}</h1>
+              <div>
+              <p class="text-lg font-semibold">${content.authors[0].profile_name}</p>
+              <h1 class="text-sm">${content.others.views}</h1>
               </div>
             
               </div>
