@@ -29,7 +29,7 @@ const displayContent = (contents) => {
               />
               
               <div>
-              <p class="text-lg font-semibold">${content.authors[0].profile_name}</p>
+              <p class="text-[15px] font-semibold">${content.authors[0].profile_name}</p>
               <h1 class="text-sm">${content.others.views}</h1>
               </div>
             
