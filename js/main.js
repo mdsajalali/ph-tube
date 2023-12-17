@@ -23,7 +23,7 @@ const displayContent = (contents) => {
               </figure>
     
               <div  class="mt-3 flex items-center gap-3">
-                <img class="w-10 h-10 rounded-full ring-4 object-cover "
+                <img class="w-10 h-10 rounded-full ring-2 ring-[#FF1F3D] object-cover "
                 src="${content.authors[0].profile_picture}"
                 alt=""
               />
