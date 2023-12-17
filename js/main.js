@@ -23,14 +23,14 @@ const displayContent = (contents) => {
               </figure>
     
               <div  class="mt-3 flex items-center gap-3">
-                <img class="w-10 h-10 rounded-full "
+                <img class="w-10 h-10 rounded-full ring-4 object-cover "
                 src="${content.authors[0].profile_picture}"
                 alt=""
               />
               
               <div>
               <p class="text-[15px] font-semibold">${content.authors[0].profile_name}</p>
-              <h1 class="text-sm">${content.others.views}</h1>
+              <h1 class="text-sm font-bold">${content.others.views}</h1>
               </div>
             
               </div>
